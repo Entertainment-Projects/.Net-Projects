@@ -10,6 +10,7 @@
     transition: background-color 0.5s;
     padding: 0 1%;
     font-family:'Open Sans';
+    z-index: 9999;
 }
 
     .header.middle {

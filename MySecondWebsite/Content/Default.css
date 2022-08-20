@@ -11,3 +11,34 @@
     padding-left: 2%;
     padding-right: 2%;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    padding: 2%;
+}
+
+.row.padding-bottom {
+    padding-bottom: 2%;
+}
+
+.row.stretch {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    column-gap: 2%
+}
+
+
+/* Responsive: Portrait tablets and below */
+@media screen and (max-width: 768px) {
+    .row.stretch {
+        display: block;
+    }
+
+    .col, [class*="col-"] {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+}
